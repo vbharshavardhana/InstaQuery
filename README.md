@@ -1,5 +1,5 @@
 # 📖 InstaQuery: A Real-Time, Page-Aware Chatbot
-**InstaQuery** is a cutting-edge real-time chatbot that uses LangChain, LLaMA models, and Google's Gemini API to provide intelligent, context-aware responses. It features a user-friendly UI built with Streamlit and a robust backend powered by FastAPI. The project includes Retrieval-Augmented Generation (RAG) for enhanced information retrieval and leverages CouchDB for efficient data storage.
+**InstaQuery** is a cutting-edge real-time chatbot that uses LangChain, and Google's Gemini API to provide intelligent, context-aware responses. It features a user-friendly UI built with Streamlit and a robust backend powered by FastAPI. The project includes Retrieval-Augmented Generation (RAG) for enhanced information retrieval and leverages CouchDB for efficient data storage.
 
 ---
 
