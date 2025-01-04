@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px; /* Adjust the height */
+  width: 800px;  /* Adjust the width */
+  overflow: hidden; /* Prevent scrollbars */
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
