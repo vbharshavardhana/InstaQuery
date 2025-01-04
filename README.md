@@ -37,9 +37,7 @@ InstaQuery is designed to offer **multi-turn conversational capabilities** with 
 - **Streamlit** (Frontend UI)
 - **FastAPI** (Backend API handling)
 - **LangChain** (NLP pipeline and conversational AI)
-- **LLaMA** (Language model)
 - **Google Gemini API** (LLM responses)
-- **CouchDB** (Database)
 
 ---
 
@@ -86,8 +84,8 @@ Here’s a detailed breakdown of the project workflow:
    - The chatbot fetches relevant context using RAG from CouchDB (if available).
 
 4. **NLP Pipeline (LangChain):**
-   - The query is processed through a pre-trained LLaMA model.
-   - If additional context is needed, LangChain leverages RAG to retrieve related data from the database.
+   - The query is processed through a pre-trained llm model.
+   - If additional context is needed, LangChain leverages RAG to retrieve related data from the BM25.
 
 5. **External API Call:**
    - The chatbot queries the Google Gemini API for an LLM-powered response.
@@ -105,7 +103,6 @@ Here’s a detailed breakdown of the project workflow:
 - 🧩 **Integrate LangChain for better multi-turn conversations.**
 - 🎨 **Refine UI to look similar to ChatGPT for a seamless user experience.**
 - 📊 **Add analytics dashboard** to monitor user interactions and performance.
-- 🧱 **Optimize CouchDB usage** for faster data retrieval.
 
 ---
 
