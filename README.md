@@ -46,7 +46,7 @@ InstaQuery is designed to offer **multi-turn conversational capabilities** with 
 ## 📥 Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/instaquery.git
+git clone [repo.git]
 
 # Navigate to the project directory
 cd instaquery
